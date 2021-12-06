@@ -7,7 +7,7 @@ void main() async {
       .map((e) => int.parse(e.trim()))
       .groupListsBy((e) => e, ).map((key, value) => MapEntry(key, value.length));
 
-  for (var i = 0; i < 80; i++) {
+  for (var i = 0; i < 256; i++) {
     fishes = cycleDay(fishes);
   }
 

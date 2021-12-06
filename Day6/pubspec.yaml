@@ -1,0 +1,6 @@
+name: day4
+
+environment:
+  sdk: '>=2.12.0 < 3.0.0'
+dependencies: 
+  collection: ^1.15.0

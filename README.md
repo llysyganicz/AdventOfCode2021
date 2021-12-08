@@ -10,6 +10,7 @@
 |5    |[Hydrothermal Venture][Day5]     |[&#10004;](./Day5/part1.dart)  |[&#10004;](./Day5/part2.dart)  |
 |6    |[Lanternfish][Day6]              |[&#10004;](./Day6/part1.dart)  |[&#10004;](./Day6/part2.dart)  |
 |7    |[The Treachery of Whales][Day7]  |[&#10004;](./Day7/part1.dart)  |[&#10004;](./Day7/part2.dart)  |
+|8    |[Seven Segment Search][Day8]     |[&#10004;](./Day8/part1.dart)  |[&#10004;](./Day8/part2.dart)  |
 
 [Day1]: https://adventofcode.com/2021/day/1
 [Day2]: https://adventofcode.com/2021/day/2
@@ -18,3 +19,4 @@
 [Day5]: https://adventofcode.com/2021/day/5
 [Day6]: https://adventofcode.com/2021/day/6
 [Day7]: https://adventofcode.com/2021/day/7
+[Day8]: https://adventofcode.com/2021/day/8

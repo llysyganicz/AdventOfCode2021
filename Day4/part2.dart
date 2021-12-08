@@ -1,5 +1,4 @@
 import 'dart:io';
-import 'package:collection/collection.dart';
 
 class Cell {
   final row;
@@ -31,7 +30,11 @@ class Board {
   }
 
   int calculateScore(int number) {
-    return cells.where((cell) => !cell.marked).map((cell) => cell.value).reduce((v, e) => v + e) * number;
+    return cells
+            .where((cell) => !cell.marked)
+            .map((cell) => cell.value)
+            .reduce((v, e) => v + e) *
+        number;
   }
 }
 
@@ -42,14 +45,14 @@ void main() {
 
   setup(lines, boards);
 
-  numbers.take(5).forEach((number) { 
+  numbers.take(5).forEach((number) {
     markBoards(boards, number);
   });
 
   numbers = numbers.skip(5).toList();
   var remainingBoards = removeWinners(boards);
   var currentNumber = 0;
-  while(remainingBoards.length > 1) {
+  while (remainingBoards.length > 1) {
     currentNumber = numbers.first;
     markBoards(remainingBoards, currentNumber);
     remainingBoards = removeWinners(remainingBoards);
@@ -76,7 +79,11 @@ void setup(List<String> lines, List<Board> boards) {
     }
 
     final board = boards.last;
-    final values = lines[i].split(' ').where((e) => e.length > 0).map((e) => int.parse(e)).toList();
+    final values = lines[i]
+        .split(' ')
+        .where((e) => e.length > 0)
+        .map((e) => int.parse(e))
+        .toList();
     for (var c = 0; c < values.length; c++) {
       board.cells.add(Cell(row, c + 1, values[c]));
     }

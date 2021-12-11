@@ -13,6 +13,7 @@
 |8    |[Seven Segment Search][Day8]     |[&#10004;](./Day8/part1.dart)  |[&#10004;](./Day8/part2.dart)  |
 |9    |[Smoke Basin][Day9]              |[&#10004;](./Day9/part1.dart)  |[&#10004;](./Day9/part2.dart)  |
 |10   |[Syntax Scoring][Day10]          |[&#10004;](./Day10/part1.dart) |[&#10004;](./Day10/part2.dart) |
+|11   |[Dumbo Octopus][Day11]           |[&#10004;](./Day11/part1.dart) |[&#10004;](./Day11/part2.dart) |
 
 [Day1]: https://adventofcode.com/2021/day/1
 [Day2]: https://adventofcode.com/2021/day/2
@@ -24,3 +25,4 @@
 [Day8]: https://adventofcode.com/2021/day/8
 [Day9]: https://adventofcode.com/2021/day/9
 [Day10]: https://adventofcode.com/2021/day/10
+[Day11]: https://adventofcode.com/2021/day/11
